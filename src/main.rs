@@ -1,6 +1,6 @@
 //enumerations and pattern matching
 
-enum Message {
+/* enum Message {
     Quit,
     Move {x: i32, y:i32},
     Write(String),
@@ -44,8 +44,8 @@ fn plus_one(x: Option<i32>) -> Option<i32> {
     }
 }
 let five = Some(5);
-let six = plus_one(five);
-let none = plus_one(None);
+let _six = plus_one(five);
+let _none = plus_one(None);
 
 let dice_roll = 9;
 match dice_roll {
@@ -58,10 +58,13 @@ fn remove_fancy_hat() {}
 fn reroll() {}
 
 
+/* let mut count = 0;
+if let Coin::Quater(state) = coin {
+    println!("quater from {state:?}");
+} else {
+    count += 1;
+} */
 
-
-
-
-
-
-}
+} */
+//-------------------------------------------------------------------
+// PACKAGES, CRATES, AND MODULES
